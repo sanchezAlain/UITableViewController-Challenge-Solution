@@ -14,6 +14,7 @@
 		877DD5921A136C540098587A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877DD5911A136C540098587A /* Images.xcassets */; };
 		877DD5951A136C540098587A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877DD5931A136C540098587A /* LaunchScreen.xib */; };
 		877DD5A11A136C540098587A /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DD5A01A136C540098587A /* UITableViewController_Challenge_SolutionTests.m */; };
+		877DD5AC1A1374950098587A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877DD5AB1A1374950098587A /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 		877DD59A1A136C540098587A /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		877DD59F1A136C540098587A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877DD5A01A136C540098587A /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		877DD5AA1A1374950098587A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		877DD5AB1A1374950098587A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 		877DD5751A136C540098587A = {
 			isa = PBXGroup;
 			children = (
+				877DD5AA1A1374950098587A /* TableViewController.h */,
+				877DD5AB1A1374950098587A /* TableViewController.m */,
 				877DD5801A136C540098587A /* UITableViewController Challenge Solution */,
 				877DD59D1A136C540098587A /* UITableViewController Challenge SolutionTests */,
 				877DD57F1A136C540098587A /* Products */,
@@ -220,6 +225,7 @@
 				877DD5871A136C540098587A /* AppDelegate.m in Sources */,
 				877DD5841A136C540098587A /* main.m in Sources */,
 				877DD58A1A136C540098587A /* UITableViewController_Challenge_Solution.xcdatamodeld in Sources */,
+				877DD5AC1A1374950098587A /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
